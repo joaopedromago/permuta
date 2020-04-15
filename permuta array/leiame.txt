@@ -1,0 +1,4 @@
+Para executar o algorítimo, é necessário utilizar o node (em qualquer versão).
+
+Basta fazer o download: https://nodejs.org/en/
+E executar o comando pelo terminal `node Perm.js` (de dentro dessa pasta)
