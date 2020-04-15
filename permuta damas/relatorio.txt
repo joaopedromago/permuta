@@ -1,0 +1,6 @@
+Rodando para 4 damas, o tempo total de execução foi de: 5 milisegundos
+Rodando para 8 damas, o tempo total de execução foi de: 8 milisegundos
+Rodando para 10 damas, o tempo total de execução foi de: 29 milisegundos
+Rodando para 14 damas, o tempo total de execução foi de: 53003 milisegundos
+Rodando para 16 damas, o tempo total de execução foi de: 3155878 milisegundos
+Rodando para 20 damas, não foi possível medir o tempo total de execução, pois após 10 horas de execução, ainda não havia sido executado
