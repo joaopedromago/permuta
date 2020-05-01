@@ -1,0 +1,49 @@
+1. Utilizando o algoritmo com a técnica de Backtracking do problema das NRainhas: 
+2. Altere para que o usuário informe o valor de o n de forma que consiga alterar o número de casas para a solução.
+    Arquivo Perm.js
+
+3. Use a Internet e procure uma forma de medir tempo na linguagem de programação na qual fez sua codificação. Meça o tempo gasto para resolução do problema para 4, 8, 9, 10 e 12 rainhas e inclua os resultados no relatório.
+    4: 5 milisegundos
+    8: 6 milisegundos
+    9: 7 milisegundos
+    10: 30 milisegundos
+    12: 1081 milisegundos
+
+4. Leiam os artigos (na ordem): algoritmo introdutório e algoritmo rápido.
+5. A classe necessária para o algoritmo QS2 apresentado no artigo “Fast Search Algorithms for the N-Queens Problem” está no arquivo nqueens.java. Adeque o programa para execução de forma que o programa deve receber (por linha de comando ou menu de usuário) o número de rainhas para o qual deve procurar a solução. ATENÇÃO: É necessário utilizar o algoritmo QS2 (do artigo), caso contrário provavelmente seu código executará para apenas poucas rainhas.
+    Arquivo FastQueens.java
+
+6. Meça o tempo gasto para resolução do problema para 1.000, 2.000, 5.000, 10.000 e 100.000 rainhas e inclua os resultados no relatório.
+    1.000: 0.0624295 segundos
+    2.000: 0.1241269 segundos
+    5.000: 0.1880929 segundos
+    10.000: 0.2594191 segundos
+    100.000: 1.7368162 segundos
+
+7. Elabore um texto explicando o motivo da diferença entre os resultados do algoritmo utilizando backtracking e do algoritmo QS2.
+    O algorítimo Backtracking resolve o problema de uma forma de permuta (testando todas possibilidades existentes) de uma forma recursiva, causando uma grande lentidão
+    resolução do problema, já o algorítimo QS2, também utiliza algoritimo recursivo (em alguns casos), porém ele já trata todas exceções para previnir testes desnecessários, marcando no tabuleiro todas opções que são erradas e não precisam ser testadas, o algorítimo também trabalha quase sempre com quase a metade do tabuleiro, reduzindo drásticamente o consumo de processamento.
+
+8. Tarefa opcional: implemente o descrito no artigo “algoritmo introdutório” e faça o mesmo teste realizado com o algoritmo do qs2. 
+    4: 0.0012043 segundos
+    5: 2.591E-4 segundos
+    6: 0.0044001 segundos
+    7: 0.0014687 segundos
+    8: 0.0065421 segundos
+    9: 0.0028201 segundos
+    10: 0.0013869 segundos
+    11: 1.341 segundos
+    12: 0.0034016 segundos
+    13: 0.0014002 segundos
+    14: 0.0181911 segundos
+    15: 2.536 segundos
+    16: 0.006212 segundos
+    17: 0.003833 segundos
+    18: 0.0015305 segundos
+    19: 0.0031116 segundos
+    20: 0.0017131 segundos
+    21: 0.0018994 segundos
+    22: 0.0025422 segundos
+    23: 0.0151956 segundos
+    24: 7.262 segundos
+    25: 2.431 segundos

@@ -1,0 +1,5 @@
+Para executar o algorítimo Perm.js, é necessário utilizar o node (em qualquer versão).
+
+Basta fazer o download: https://nodejs.org/en/
+Executar o comando pelo terminal `npm install` (de dentro dessa pasta)
+E executar o comando pelo terminal `node Perm.js` (de dentro dessa pasta)
